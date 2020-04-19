@@ -1,0 +1,23 @@
+{
+  "name": "oppgaveleder",
+  "version": "1.0.0",
+  "description": "A Task Management API",
+  "main": "index.js",
+  "repository": "git@github.com:rbixby/oppgaveleder.git",
+  "author": "Roger Wood Bixby <1766203+rbixby@users.noreply.github.com>",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "express": "^4.17.1",
+    "node": "^13.13.0",
+    "pg": "^8.0.2",
+    "pg-promise": "^10.5.1",
+    "qs": "^6.9.3",
+    "underscore": "^1.10.2"
+  },
+  "scripts": {
+    "dev": "node index.js"
+  }
+}
